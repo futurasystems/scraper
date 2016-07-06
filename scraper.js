@@ -559,7 +559,7 @@ var flo = new function() {
     clean_active();
     d.removeEventListener('keydown', so_captureKeyDownEvent, false);
     d.removeEventListener('click', clickEvent, false);
-    alert("Scraper is Off !");
+    alert("Scraper v0.2 is Off !");
   }
   
   function browser_supported() {

@@ -571,7 +571,7 @@ var flo = new function() {
   
   this.init = function() {
     if(!browser_supported()) {
-      alert("HtmlClipper only works on Firefox or Chrome.");
+      alert("Scraper only works on Firefox or Chrome.");
       return false;
     }
     d.addEventListener('keydown', so_captureKeyDownEvent, false);
@@ -580,7 +580,7 @@ var flo = new function() {
     d.addEventListener('mouseover', downEvent, false)
     */
     
-    alert("HtmlClipper is On !\n\n" +
+    alert("Scraper is On !\n\n" +
     		 "Click anywhere to select an element.\n"+
     		 "type W to select the parent element\n"+
     		 "type Q to undo selection of parent element\n"+

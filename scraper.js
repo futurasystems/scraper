@@ -1,5 +1,5 @@
 /*
-HtmlClipper v0.1
+HtmlClipper v0.2
 
 Made by Florentin Sardan
 florentinwww (at) gmail.com
@@ -571,7 +571,7 @@ var flo = new function() {
   
   this.init = function() {
     if(!browser_supported()) {
-      alert("Scraper only works on Firefox or Chrome.");
+      alert("Scraper v0.2 only works on Firefox or Chrome.");
       return false;
     }
     d.addEventListener('keydown', so_captureKeyDownEvent, false);
@@ -580,7 +580,7 @@ var flo = new function() {
     d.addEventListener('mouseover', downEvent, false)
     */
     
-    alert("Scraper is On !\n\n" +
+    alert("Scraper v0.2 is On !\n\n" +
     		 "Click anywhere to select an element.\n"+
     		 "type W to select the parent element\n"+
     		 "type Q to undo selection of parent element\n"+

@@ -1,0 +1,2 @@
+# scraper
+Automatically scrape websites.

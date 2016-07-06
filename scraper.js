@@ -1,11 +1,11 @@
 /*
-HtmlClipper v0.2
+Scraper v0.2
 
 Made by Florentin Sardan
 florentinwww (at) gmail.com
 
 Project's page:
-  http://www.betterprogramming.com/htmlclipper.html
+  http://www.betterprogramming.com/Scraper.html
 My portfolio:
   http://www.betterprogramming.com
 */
@@ -559,7 +559,7 @@ var flo = new function() {
     clean_active();
     d.removeEventListener('keydown', so_captureKeyDownEvent, false);
     d.removeEventListener('click', clickEvent, false);
-    alert("HtmlClipper is Off !");
+    alert("Scraper is Off !");
   }
   
   function browser_supported() {
@@ -587,7 +587,7 @@ var flo = new function() {
     		 "type R to remove the selected element\n"+
     		 "type S to clip the selected element\n"+
     		 "type ESC to remove the clip window\n"+
-    		 "type X to exit HtmlClipper\n"
+    		 "type X to exit Scraper\n"
     )
   };
   
